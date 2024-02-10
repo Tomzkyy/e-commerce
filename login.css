@@ -1,0 +1,113 @@
+body {
+    font-family: 'Orbitron';
+    background-color: #000000;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1e1e1e;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 2px solid #29d8ff;
+}
+
+h1 {
+    color: #29d8ff;
+    margin: 0;
+    font-size: 2em;
+}
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.logo-left {
+    width: 380px;
+    /* Adjust the width of the logo as needed */
+    height: 380px;
+    margin-top: 10px;
+    /* Adjust the margin to create space between the logo and the form */
+    margin-left: 60px;
+}
+
+
+form {
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    margin-right: 10px;
+}
+
+main {
+    padding: 40px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 35px;
+    margin-right: 100px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: rgba(30, 30, 30, 0.8);
+    border: 2px solid #29d8ff;
+    border-radius: 8px;
+}
+
+td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #29d8ff;
+}
+
+input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+    background-color: rgba(30, 30, 30, 0.8);
+    border: 1px solid #29d8ff;
+    color: #ffffff;
+    border-radius: 5px;
+    outline: none;
+}
+
+form input[type="submit"] {
+    background-color: #29d8ff;
+    color: #000000;
+    padding: 15px 20px;
+    margin-right: 500px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    margin-top: 40px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+    background-color: #1e1e1e;
+    color: #29d8ff;
+}
+
+footer {
+    background-color: #1e1e1e;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: 2px solid #29d8ff;
+}
+
+p {
+    margin: 0;
+    font-size: 14px;
+    color: #29d8ff;
+}
